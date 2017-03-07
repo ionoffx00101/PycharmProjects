@@ -1,14 +1,16 @@
-/**
- * Created by BIT on 2017-02-22.
- */
+tehon:~/workspace $ npm install express -save
+- ms@0.7.2 node_modules/send/node_modules/ms
+chaitea_node@1.0.0 /home/ubuntu/workspace
+└─┬ express@4.15.0 
+  ├─┬ debug@2.6.1 
+  │ └── ms@0.7.2 
+  ├── etag@1.8.0 
+  ├── finalhandler@1.0.0 
+  ├── fresh@0.5.0 
+  ├── qs@6.3.1 
+  ├─┬ send@0.15.0 
+  │ └── http-errors@1.6.1 
+  ├── serve-static@1.12.0 
+  └── setprototypeof@1.0.3 
 
-var express = require('express');
-var router = express.Router();
-
-//request,response ?
-router.get('/',function (req,res) {
-    res.render('index',{title:'Express'});
-});
-
-module.exports = router;
-
+npm WARN chaitea_node@1.0.0 No repository field.
